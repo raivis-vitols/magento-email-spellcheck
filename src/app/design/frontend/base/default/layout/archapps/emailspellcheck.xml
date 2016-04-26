@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    ArchApps
+ * @package     ArchApps_EmailSpellCheck
+ * @copyright   Copyright 2016 ArchApps (https://archapps.io)
+ * @license     https://opensource.org/licenses/osl-3.0.php OSL 3.0
+ */
+-->
+<layout>
+    <!-- Common JavaScript Used for EmailSpellCheck -->
+    <default>
+        <reference name="head">
+            <!-- Main JavaScript Files -->
+            <action method="addJs" ifconfig="archapps_emailspellcheck/general/enabled_in_front">
+                <name>archapps/emailspellcheck/emailspellcheck.js</name>
+            </action>
+
+            <action method="addJs" ifconfig="archapps_emailspellcheck/general/enabled_in_front">
+                <name>archapps/emailspellcheck/mailcheck-plugin.js</name>
+            </action>
+
+            <!-- Main CSS File -->
+            <action method="addItem" ifconfig="archapps_emailspellcheck/general/enabled_in_front">
+                <type>js_css</type><name>archapps/emailspellcheck/css/emailspellcheck.css</name>
+            </action>
+        </reference>
+
+        <!-- Add Block With JS Initialization -->
+        <reference name="before_body_end">
+            <block type="core/template" name="archapps.emailspellcheck.js"
+                   template="archapps/emailspellcheck/email-spell-check.phtml"/>
+        </reference>
+    </default>
+</layout>

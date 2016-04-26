@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    ArchApps
+ * @package     ArchApps_EmailSpellCheck
+ * @copyright   Copyright 2016 ArchApps (https://archapps.io)
+ * @license     https://opensource.org/licenses/osl-3.0.php OSL 3.0
+ */
+-->
+<config>
+    <sections>
+        <archapps_emailspellcheck translate="label" module="archapps_emailspellcheck">
+            <frontend_type>text</frontend_type>
+            <label>Email SpellCheck</label>
+            <sort_order>1030</sort_order>
+            <tab>general</tab>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <sort_order>10</sort_order>
+                    <frontend_type>text</frontend_type>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled_in_front translate="label comment">
+                            <label>Enabled In Front</label>
+                            <frontend_type>select</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>10</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <comment>Whether to Enable Email SpellCheck In Front-End.</comment>
+                        </enabled_in_front>
+
+                        <front_field_selector translate="label comment">
+                            <label>Front-End Email Field Selector</label>
+                            <frontend_type>textarea</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>20</sort_order>
+                            <depends>
+                                <enabled_in_front>1</enabled_in_front>
+                            </depends>
+                            <comment>Comma Separated CSS Selectors for Email Fields To Be Checked on Front-End, f.e. input[type=email]</comment>
+                        </front_field_selector>
+
+                        <enabled_in_admin translate="label comment">
+                            <label>Enabled In Admin</label>
+                            <frontend_type>select</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <sort_order>30</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <comment>Whether to Enable Email SpellCheck in Admin Side.</comment>
+                        </enabled_in_admin>
+
+                        <admin_field_selector translate="label comment">
+                            <label>Admin Email Field Selector</label>
+                            <frontend_type>textarea</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <sort_order>40</sort_order>
+                            <depends>
+                                <enabled_in_admin>1</enabled_in_admin>
+                            </depends>
+                            <comment>Comma Separated CSS Selectors for Email Fields To Be Checked in Admin, f.e. input[type=email]</comment>
+                        </admin_field_selector>
+
+                        <suggestion_text translate="label comment">
+                            <label>Suggestion Text</label>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>50</sort_order>
+                            <comment>Email Suggestion Text. The %suggestion% Placeholder Will Be Replaced With an Email.</comment>
+                        </suggestion_text>
+                    </fields>
+                </general>
+
+                <advanced translate="label">
+                    <label>Advanced</label>
+                    <sort_order>20</sort_order>
+                    <frontend_type>text</frontend_type>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <domains translate="label comment">
+                            <label>Domains</label>
+                            <frontend_type>textarea</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>10</sort_order>
+                            <comment>Comma Separated List of Additional Domains to Suggest, f.e. gmail.com, aol.com, yahoo.com</comment>
+                        </domains>
+
+                        <second_level_domains translate="label comment">
+                            <label>Second Level Domains</label>
+                            <frontend_type>textarea</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>20</sort_order>
+                            <comment>Comma Separated List of Additional Second Level Domains to Suggest, f.e. gmail, aol, yahoo</comment>
+                        </second_level_domains>
+
+                        <top_level_domains translate="label comment">
+                            <label>Top Level Domains</label>
+                            <frontend_type>textarea</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <sort_order>30</sort_order>
+                            <comment>Comma Separated List of Additional Top Level Domains to Suggest, f.e. com, co.uk, de, it</comment>
+                        </top_level_domains>
+                    </fields>
+                </advanced>
+            </groups>
+        </archapps_emailspellcheck>
+    </sections>
+</config>

@@ -1,0 +1,29 @@
+********************************************************************************
+# 0.1.1
+
+# Details
+Code refactor, front and admin configs and documentation updates.
+
+# Changes
+- Added frontend and admin configs.
+- Code refactor across all files.
+- Updated all documentation.
+
+# Fixes
+- N/A
+
+
+********************************************************************************
+# 0.1.0
+
+# Details
+Initial release.
+
+# Changes
+- N/A
+
+# Fixes
+- N/A
+
+
+********************************************************************************

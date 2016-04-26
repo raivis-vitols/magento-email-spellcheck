@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    ArchApps
+ * @package     ArchApps_EmailSpellCheck
+ * @copyright   Copyright 2016 ArchApps (https://archapps.io)
+ * @license     https://opensource.org/licenses/osl-3.0.php OSL 3.0
+ */
+-->
+<config>
+    <modules>
+        <ArchApps_EmailSpellCheck>
+            <version>0.1.1</version>
+        </ArchApps_EmailSpellCheck>
+    </modules>
+
+    <global>
+        <helpers>
+            <archapps_emailspellcheck>
+                <class>ArchApps_EmailSpellCheck_Helper</class>
+            </archapps_emailspellcheck>
+        </helpers>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <archapps_emailspellcheck>
+                    <file>archapps/emailspellcheck.xml</file>
+                </archapps_emailspellcheck>
+            </updates>
+        </layout>
+
+        <translate>
+            <modules>
+                <archapps_emailspellcheck>
+                    <files>
+                        <default>ArchApps_EmailSpellCheck.csv</default>
+                    </files>
+                </archapps_emailspellcheck>
+            </modules>
+        </translate>
+    </frontend>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <archapps_emailspellcheck>
+                    <file>archapps/emailspellcheck.xml</file>
+                </archapps_emailspellcheck>
+            </updates>
+        </layout>
+
+        <translate>
+            <modules>
+                <archapps_emailspellcheck>
+                    <files>
+                        <default>ArchApps_EmailSpellCheck.csv</default>
+                    </files>
+                </archapps_emailspellcheck>
+            </modules>
+        </translate>
+    </adminhtml>
+
+    <default>
+        <archapps_emailspellcheck>
+            <general>
+                <enabled_in_front>1</enabled_in_front>
+                <enabled_in_admin>1</enabled_in_admin>
+                <front_field_selector>input[type=email],input[name=email],input.validate-email</front_field_selector>
+                <admin_field_selector>input[type=email],input[name=email],input.validate-email</admin_field_selector>
+                <suggestion_text>Did you mean %suggestion%?</suggestion_text>
+            </general>
+        </archapps_emailspellcheck>
+    </default>
+</config>

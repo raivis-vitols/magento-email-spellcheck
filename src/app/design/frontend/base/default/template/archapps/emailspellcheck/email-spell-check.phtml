@@ -1,0 +1,19 @@
+<?php
+/**
+ * @category    ArchApps
+ * @package     ArchApps_EmailSpellCheck
+ * @copyright   Copyright 2016 ArchApps (https://archapps.io)
+ * @license     https://opensource.org/licenses/osl-3.0.php OSL 3.0
+ */
+?>
+<?php
+    /** @var ArchApps_EmailSpellCheck_Helper_Data $helper */
+    $helper = Mage::helper('archapps_emailspellcheck');
+?>
+<?php if ($helper->isEnabledInFront()): ?>
+    <script type="text/javascript">
+        document.observe('dom:loaded', function() {
+            new ArchApps.EmailSpellCheck(<?php echo $helper->getJsonConfig() ?>);
+        });
+    </script>
+<?php endif; ?>
