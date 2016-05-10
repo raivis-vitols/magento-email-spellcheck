@@ -13,7 +13,7 @@
             <frontend_type>text</frontend_type>
             <label>Email SpellCheck</label>
             <sort_order>1030</sort_order>
-            <tab>general</tab>
+            <tab>advanced</tab>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>

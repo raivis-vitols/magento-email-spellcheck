@@ -30,16 +30,6 @@
                 </archapps_emailspellcheck>
             </updates>
         </layout>
-
-        <translate>
-            <modules>
-                <archapps_emailspellcheck>
-                    <files>
-                        <default>ArchApps_EmailSpellCheck.csv</default>
-                    </files>
-                </archapps_emailspellcheck>
-            </modules>
-        </translate>
     </frontend>
 
     <adminhtml>

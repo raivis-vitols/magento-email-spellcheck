@@ -115,8 +115,10 @@ ArchApps.EmailSpellCheck.prototype = {
             suggestionMarkup = this.suggestionMarkup.evaluate({
                 wrapClass: this.htmlWrapClass,
                 textClass: this.htmlTextClass,
+
                 text: this.suggestionText.replace(
-                    '%suggestion%', emailMarkup
+                    '%suggestion%',
+                    emailMarkup
                 )
             });
 
