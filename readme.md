@@ -10,4 +10,4 @@
 Built on top of MailCheck.js plugin - [https://github.com/mailcheck/mailcheck](https://github.com/mailcheck/mailcheck)
 
 ## Documentation
-[https://docs.google.com/document/d/1JdA6we5pEc2Ko8lyApCMSBs6N7Qfq0WZR9wpW-8tTJM](https://docs.google.com/document/d/1JdA6we5pEc2Ko8lyApCMSBs6N7Qfq0WZR9wpW-8tTJM)
+[https://docs.google.com/document/d/1JXp62i5Uqht4zEKn8O8W9VSojp_HTeIj_Z8oyDhnCXQ](https://docs.google.com/document/d/1JXp62i5Uqht4zEKn8O8W9VSojp_HTeIj_Z8oyDhnCXQ)

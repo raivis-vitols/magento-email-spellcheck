@@ -1,4 +1,19 @@
 ********************************************************************************
+# 0.1.2
+
+# Details
+Minor JS code refactor, moving config tab to Advanced section.
+
+# Changes
+- Moving config tab to Advanced section.
+- Minor JS code refactoring.
+- Updated documentation.
+
+# Fixes
+- N/A
+
+
+********************************************************************************
 # 0.1.1
 
 # Details
