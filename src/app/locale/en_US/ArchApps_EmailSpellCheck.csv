@@ -13,7 +13,7 @@
 "Advanced", "Advanced"
 "Domains", "Domains"
 "Comma Separated List of Additional Domains to Suggest, f.e. gmail.com, aol.com, yahoo.com", "Comma Separated List of Additional Domains to Suggest, f.e. gmail.com, aol.com, yahoo.com"
-"Second Level Domains" ,"Second Level Domains"
+"Second Level Domains", "Second Level Domains"
 "Comma Separated List of Additional Second Level Domains to Suggest, f.e. gmail, aol, yahoo", "Comma Separated List of Additional Second Level Domains to Suggest, f.e. gmail, aol, yahoo"
 "Top Level Domains", "Top Level Domains"
 "Comma Separated List of Additional Top Level Domains to Suggest, f.e. com, co.uk, de, it", "Comma Separated List of Additional Top Level Domains to Suggest, f.e. com, co.uk, de, it"
