@@ -30,8 +30,25 @@ Reduce any chances of users registering, signing up for newsletter or checking o
 ## Compatibility
 Magento Community: 1.7.x - 1.9.x, Magento Enterprise: 1.12.x - 1.14.x
 
-## Documentation
-TBD
+## Configuration
+Navigate to "System -> Configuration", open "Email SpellCheck" tab under "Advanced" section, open "General" section and make sure field value for "Enabled" field is set to "Yes";
+
+By default, all email fields will have email validation enabled. To adjust it, use "Front-End Email Field Selector" or "Admin Email Field Selector" config fields. Adjust the rest of available configurations to your needs - each field contains comment explaining the resulting behaviour. Email SpellCheck extension for Magento checks misspelled emails based on following domains:
+```
+msn.com, bellsouth.net, telus.net, comcast.net, optusnet.com.au, web.de, earthlink.net, qq.com, sky.com, icloud.com, mac.com, sympatico.ca, googlemail.com, att.net, xtra.co.nz, cox.net, gmail.com, ymail.com, aim.com, rogers.com, verizon.net, rocketmail.com, google.com, optonline.net, sbcglobal.net, aol.com, me.com, btinternet.com, charter.net, shaw.ca
+```
+
+Top level domains:
+```
+com, com.au, com.tw, ca, co.nz, co.uk, de, fr, it, ru, net, org, edu, gov, jp, nl, kr, se, eu, ie, co.il, us, at, be, dk, hk, es, gr, ch, no, cz, in, net, net.au, info, biz, mil, co.jp, sg, hu
+```
+
+Second level domains:
+```
+yahoo, hotmail, mail, live, outlook, gmx
+```
+
+In order to add more domain names to be checked for typos in forms with Email SpellCheck enabled, use the configuration under "System -> Configuration -> Advanced -> Email SpellCheck -> Advanced" and add new domain names in comma separated format.
 
 ## Credits
 Built on top of MailCheck.js plugin - [https://github.com/mailcheck/mailcheck](https://github.com/mailcheck/mailcheck)
