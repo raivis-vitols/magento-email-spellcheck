@@ -20,14 +20,14 @@ Reduce any chances of users registering, signing up for newsletter or checking o
 #### Admin Features
 
 - Easily edit suggestion text message, target email fields or disable extension if you need;
-- Enable Email SpellCheck for administration panel email fields and avoid typos yourself!;
+- Enable Email SpellCheck for administration panel email fields and avoid typos yourself;
 - Not checking typo in your specific domain? Simply add it to list of domain names to check.
 
 #### General Features
+- No extension conflicts - built without a single core class rewrite;
 - True plug & play solution - install it, configure and it's ready to use;
-- No extension conflicts guaranteed - built without a single core class rewrite;
-- Clean, lightweight and extendable solution - use it as it is or modify without a hassle.
-- Well structured and commented code, not a bit of it is encrypted, follows best practices;
+- Clean, lightweight and extendable solution - use it as it is or modify without a hassle;
+- Well structured and commented code, not a bit of it is encrypted, follows best practices.
 
 ## Compatibility
 Magento Community: 1.7.x - 1.9.x, Magento Enterprise: 1.12.x - 1.14.x
