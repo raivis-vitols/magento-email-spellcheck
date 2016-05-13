@@ -9,6 +9,8 @@ If user enters "john@gnail.com" email address in any of your web forms with the 
 
 Reduce any chances of users registering, signing up for newsletter or checking out with incorrect email address. Extension can also be enabled for any web form in Magento administrator panel - therefore, it helps you avoid misspelled email addresses when entering customer, order or any other information. Built on top of - [https://github.com/mailcheck/mailcheck](https://github.com/mailcheck/mailcheck)
 
+![Screenshot](http://i.imgur.com/XSXANKK.jpg)
+
 #### Frontend Features
 
 - No more misspelled customer, newsletter subscriber or order detail email addresses;
@@ -33,6 +35,8 @@ Magento Community: 1.7.x - 1.9.x, Magento Enterprise: 1.12.x - 1.14.x
 ## Configuration
 Navigate to "System -> Configuration", open "Email SpellCheck" tab under "Advanced" section, open "General" section and make sure field value for "Enabled" field is set to "Yes";
 
+![Screenshot](http://i.imgur.com/Q0Q5bYF.jpg)
+
 By default, all email fields will have email validation enabled. To adjust it, use "Front-End Email Field Selector" or "Admin Email Field Selector" config fields. Adjust the rest of available configurations to your needs - each field contains comment explaining the resulting behaviour. Email SpellCheck extension for Magento checks misspelled emails based on following domains:
 ```
 msn.com, bellsouth.net, telus.net, comcast.net, optusnet.com.au, web.de, earthlink.net, qq.com, sky.com, icloud.com, mac.com, sympatico.ca, googlemail.com, att.net, xtra.co.nz, cox.net, gmail.com, ymail.com, aim.com, rogers.com, verizon.net, rocketmail.com, google.com, optonline.net, sbcglobal.net, aol.com, me.com, btinternet.com, charter.net, shaw.ca
@@ -49,3 +53,5 @@ yahoo, hotmail, mail, live, outlook, gmx
 ```
 
 In order to add more domain names to be checked for typos in forms with Email SpellCheck enabled, use the configuration under "System -> Configuration -> Advanced -> Email SpellCheck -> Advanced" and add new domain names in comma separated format.
+
+![Screenshot](http://i.imgur.com/4hSnPE1.jpg)
