@@ -7,7 +7,7 @@ Email SpellCheck extension for Magento helps your customers to spot and correct 
 
 If user enters "john@gnail.com" email address in any of your web forms with the Email SpellCheck enabled, extension will check the email entered and show "Did you mean john@gmail.com?" message next to the email field - user will be able to fix the typo by clicking the suggestion.
 
-Reduce any chances of users registering, signing up for newsletter or checking out with incorrect email address. Extension can also be enabled for any web form in Magento administrator panel - therefore, it helps you avoid misspelled email addresses when entering customer, order or any other information.
+Reduce any chances of users registering, signing up for newsletter or checking out with incorrect email address. Extension can also be enabled for any web form in Magento administrator panel - therefore, it helps you avoid misspelled email addresses when entering customer, order or any other information. Built on top of - [https://github.com/mailcheck/mailcheck](https://github.com/mailcheck/mailcheck)
 
 #### Frontend Features
 
@@ -49,6 +49,3 @@ yahoo, hotmail, mail, live, outlook, gmx
 ```
 
 In order to add more domain names to be checked for typos in forms with Email SpellCheck enabled, use the configuration under "System -> Configuration -> Advanced -> Email SpellCheck -> Advanced" and add new domain names in comma separated format.
-
-## Credits
-Built on top of MailCheck.js plugin - [https://github.com/mailcheck/mailcheck](https://github.com/mailcheck/mailcheck)
