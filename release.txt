@@ -1,4 +1,18 @@
 ********************************************************************************
+# 0.1.3
+
+# Details
+Updated MailCheck plugin, moved CSS files around, renamed template files.
+
+# Changes
+- Updated MailCheck plugin.
+- Moved CSS files around.
+
+# Fixes
+- N/A
+
+
+********************************************************************************
 # 0.1.2
 
 # Details

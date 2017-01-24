@@ -9,7 +9,7 @@
 <config>
     <modules>
         <ArchApps_EmailSpellCheck>
-            <version>0.1.2</version>
+            <version>0.1.3</version>
         </ArchApps_EmailSpellCheck>
     </modules>
 

@@ -6,3 +6,5 @@ src/js/archapps/emailspellcheck/ js/archapps/emailspellcheck/
 src/app/design/adminhtml/default/default/template/archapps/emailspellcheck/ app/design/adminhtml/default/default/template/archapps/emailspellcheck/
 src/app/design/adminhtml/default/default/layout/archapps/emailspellcheck.xml app/design/adminhtml/default/default/layout/archapps/emailspellcheck.xml
 src/app/locale/en_US/ArchApps_EmailSpellCheck.csv app/locale/en_US/ArchApps_EmailSpellCheck.csv
+src/skin/frontend/base/default/archapps/emailspellcheck/ skin/frontend/base/default/archapps/emailspellcheck/
+src/skin/adminhtml/default/default/archapps/emailspellcheck/ skin/adminhtml/default/default/archapps/emailspellcheck/
