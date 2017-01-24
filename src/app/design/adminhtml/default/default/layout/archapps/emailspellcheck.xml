@@ -20,15 +20,15 @@
             </action>
 
             <!-- Main CSS File -->
-            <action method="addItem" ifconfig="archapps_emailspellcheck/general/enabled_in_admin">
-                <type>js_css</type><name>archapps/emailspellcheck/css/emailspellcheck.css</name>
+            <action method="addCss" ifconfig="archapps_emailspellcheck/general/enabled_in_admin">
+                <name>archapps/emailspellcheck/css/emailspellcheck.css</name>
             </action>
         </reference>
 
         <!-- Add Block With JS Initialization -->
         <reference name="js">
             <block type="core/template" name="archapps.emailspellcheck.js"
-                   template="archapps/emailspellcheck/email-spell-check.phtml"/>
+                   template="archapps/emailspellcheck/emailspellcheck.phtml"/>
         </reference>
     </default>
 </layout>

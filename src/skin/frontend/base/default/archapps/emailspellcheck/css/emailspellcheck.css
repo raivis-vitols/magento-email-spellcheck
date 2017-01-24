@@ -1,0 +1,20 @@
+/**
+ * @category    ArchApps
+ * @package     ArchApps_EmailSpellCheck
+ * @license     https://opensource.org/licenses/osl-3.0.php OSL 3.0
+ */
+.esp-wrap {
+    padding: 5px 10px;
+    text-transform: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.esp-email:hover {
+    text-decoration: none;
+}
+
+.esp-email {
+    font-weight: bold;
+    text-decoration: underline;
+}
