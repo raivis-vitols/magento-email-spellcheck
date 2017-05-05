@@ -55,3 +55,4 @@ yahoo, hotmail, mail, live, outlook, gmx
 In order to add more domain names to be checked for typos in forms with Email SpellCheck enabled, use the configuration under "System -> Configuration -> Advanced -> Email SpellCheck -> Advanced" and add new domain names in comma separated format.
 
 ![Screenshot](http://i.imgur.com/4hSnPE1.jpg)
+Extension developed by [Raivis Vitols](https://raivis.com/).
