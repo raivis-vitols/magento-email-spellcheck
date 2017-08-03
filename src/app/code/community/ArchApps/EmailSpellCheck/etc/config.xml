@@ -3,13 +3,14 @@
 /**
  * @category    ArchApps
  * @package     ArchApps_EmailSpellCheck
+ * @author      Raivis Vitols <raivis.vitols@raivis.com>
  * @license     https://opensource.org/licenses/osl-3.0.php OSL 3.0
  */
 -->
 <config>
     <modules>
         <ArchApps_EmailSpellCheck>
-            <version>0.1.3</version>
+            <version>0.1.4</version>
         </ArchApps_EmailSpellCheck>
     </modules>
 
